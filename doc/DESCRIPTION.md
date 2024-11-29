@@ -1,0 +1,1 @@
+Google Reader inspired self-hosted RSS reader, based on Quarkus and React/TypeScript.
