@@ -49,7 +49,7 @@ ram.runtime = "50M"
     url = "https://github.com/Athou/commafeed/releases/download/5.3.4/commafeed-5.3.4-h2-linux-x86_64-runner"
     sha256 = "cae7ed82706119e7599e5bb5012a6733a83a25bc5946382d8fd1ac2904500e59"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
