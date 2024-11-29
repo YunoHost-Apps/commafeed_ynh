@@ -1,5 +1,5 @@
 [Unit]
-Description=A bloat-free feed reader
+Description=CommaFeed: RSS feed reader
 After=local-fs.target network.target
 
 [Service]
