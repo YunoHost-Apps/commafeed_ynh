@@ -21,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Lecteur RSS auto-hébergé inspiré de Google Reader, basé sur Quarkus et React/TypeScript.
 
 
-**Version incluse :** 5.3.4~ynh1
+**Version incluse :** 5.3.6~ynh1
 
 **Démo :** <https://www.commafeed.com/#/app/category/all>
 
