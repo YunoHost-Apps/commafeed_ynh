@@ -47,10 +47,11 @@ ram.runtime = "100M"
     rename = "commafeed"
     in_subdir = false
     extract = false
-    url = "https://github.com/Athou/commafeed/archive/refs/tags/5.3.6.tar.gz"
-    sha256 = "1974bb358be2a8e529d347ccb7d06cef2d9b29e28dafc2e12c486690bf055e48"
+    url = "https://github.com/Athou/commafeed/releases/download/5.3.6/commafeed-5.3.6-h2-linux-x86_64-runner"
+    sha256 = "d8da2dd9799642b986a9bc5cd9042f9328728d7dddb6fa0006798f163e9f902a"
 
     autoupdate.strategy = "latest_github_tag"
+    autoupdate.asset = "commafeed-\\d+\\.\\d+\\.\\d+-h2-linux-x86_64-runner"
 
     [resources.system_user]
 

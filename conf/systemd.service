@@ -9,6 +9,8 @@ WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/commafeed
 SyslogIdentifier=commafeed
 Restart=always
+Environment=QUARKUS_HTTP_PORT=__PORT__
+StandardOutput=append:/var/log/__APP__/__APP__.log
 
 [Install]
 WantedBy=multi-user.target
