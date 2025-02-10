@@ -3,6 +3,7 @@ Description=CommaFeed: RSS feed reader
 After=local-fs.target network.target
 
 [Service]
+Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
@@ -11,13 +12,8 @@ SyslogIdentifier=commafeed
 Restart=always
 Environment=QUARKUS_HTTP_PORT=__PORT__
 StandardOutput=append:/var/log/__APP__/__APP__.log
+StandardError=inherit
 
-[Install]
-WantedBy=multi-user.target
-
-
-### Depending on specificities of your service/app, you may need to tweak these
-### .. but this should be a good baseline
 # Sandboxing options to harden security
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
 NoNewPrivileges=yes
