@@ -20,7 +20,7 @@
 
 Google Reader inspired self-hosted RSS reader, based on Quarkus and React/TypeScript.
 
-**分发版本：** 5.6.0~ynh1
+**分发版本：** 5.6.1~ynh1
 
 **演示：** <https://www.commafeed.com/#/app/category/all>
 

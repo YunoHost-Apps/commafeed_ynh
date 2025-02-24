@@ -20,7 +20,7 @@ No se debe editar a mano.
 
 Google Reader inspired self-hosted RSS reader, based on Quarkus and React/TypeScript.
 
-**Versión actual:** 5.6.0~ynh1
+**Versión actual:** 5.6.1~ynh1
 
 **Demo:** <https://www.commafeed.com/#/app/category/all>
 
