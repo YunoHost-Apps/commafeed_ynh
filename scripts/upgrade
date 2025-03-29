@@ -12,7 +12,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Stopping $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="stop" --wait_until="commafeed-server stopped in"
+ynh_systemctl --service="$app" --action="stop" #--wait_until="commafeed-server stopped in"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -20,7 +20,7 @@ ynh_systemctl --service="$app" --action="stop" --wait_until="commafeed-server st
 ynh_script_progression "Upgrading source files..."
 
 # Download, check integrity, uncompress and patch the source from manifest.toml
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="data"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="data config .env"
 
 chmod +x "$install_dir/commafeed"
 
@@ -41,7 +41,7 @@ ynh_config_add_logrotate
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start" --wait_until="Listening on: "
+ynh_systemctl --service="$app" --action="start" #--wait_until="Listening on: "
 
 #=================================================
 # END OF SCRIPT
