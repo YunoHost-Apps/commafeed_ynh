@@ -39,7 +39,7 @@ Google Reader inspired self-hosted RSS reader, based on Quarkus and React/TypeSc
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/commafeed_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/commafeed_ynh/tree/testing --debug
