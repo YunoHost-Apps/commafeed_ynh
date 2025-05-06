@@ -4,7 +4,7 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/commafeed.png" width="32px" alt="Logo of CommaFeed">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/commafeed.png" width="32px" alt="Logo of CommaFeed">
   CommaFeed, packaged for YunoHost
 </h1>
 
@@ -12,7 +12,7 @@ Personal RSS reader
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.commafeed.com/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://www.commafeed.com/#/app/category/all)
-![Version: 5.7.0~ynh1](https://img.shields.io/badge/Version-5.7.0~ynh1-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 5.8.0~ynh1](https://img.shields.io/badge/Version-5.8.0~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/commafeed/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/commafeed"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -20,6 +20,8 @@ Personal RSS reader
 </div>
 
 ## 📦 Developer info
+
+[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/commafeed)](https://ci-apps.yunohost.org/ci/apps/commafeed/)
 
 🛠️ Upstream CommaFeed repository: <https://github.com/Athou/commafeed>
 
