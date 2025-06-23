@@ -54,8 +54,8 @@ ram.runtime = "100M"
     arm64.sha256 = "b9cb661b73d3ba1b7aad4cb28da9dd7e977873c55f815f9237da477599adb07e"
 
     autoupdate.strategy = "latest_github_release"
-    autoupdate.asset = "commafeed-\\d+\\.\\d+\\.\\d+-h2-linux-x86_64-runner"
-    autoupdate.asset = "commafeed-\\d+\\.\\d+\\.\\d+-h2-linux-aarch_64-runner"
+    autoupdate.asset.amd64 = "commafeed-\\d+\\.\\d+\\.\\d+-h2-linux-x86_64-runner"
+    autoupdate.asset.arm64 = "commafeed-\\d+\\.\\d+\\.\\d+-h2-linux-aarch_64-runner"
 
     [resources.system_user]
 
