@@ -7,7 +7,7 @@ name = "CommaFeed"
 description.en = "Personal RSS reader"
 description.fr = "Lecteur RSS personnel"
 
-version = "5.11.0~ynh1"
+version = "5.11.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -48,10 +48,10 @@ ram.runtime = "100M"
     rename = "commafeed"
     in_subdir = false
     extract = false
-    amd64.url = "https://github.com/Athou/commafeed/releases/download/5.11.0/commafeed-5.11.0-h2-linux-x86_64-runner"
-    amd64.sha256 = "5ac3ab2b85b68dbaaf3a6e6130431d7e356251f5b0cd32309c3fd5856f422f0a"
-    arm64.url = "https://github.com/Athou/commafeed/releases/download/5.11.0/commafeed-5.11.0-h2-linux-aarch_64-runner"
-    arm64.sha256 = "a5ab832230b2016deed72276ab554ab8200641916b2018c25341e383209c6712"
+    amd64.url = "https://github.com/Athou/commafeed/releases/download/5.11.1/commafeed-5.11.1-h2-linux-x86_64-runner"
+    amd64.sha256 = "334983e57775ad1ae3730543e91d3879b0db965e52d62706e58c2d512a49f8ff"
+    arm64.url = "https://github.com/Athou/commafeed/releases/download/5.11.1/commafeed-5.11.1-h2-linux-aarch_64-runner"
+    arm64.sha256 = "fd83ba73872550f4eb00d30eb22bf37530f0cc434140faedd500afd9b5801613"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = "commafeed-\\d+\\.\\d+\\.\\d+-h2-linux-x86_64-runner"
