@@ -19,7 +19,7 @@ code = "https://github.com/Athou/commafeed"
 fund = "https://www.paypal.com/donate/?business=9CNQHMJG2ZJVY&no_recurring=0&item_name=CommaFeed&currency_code=EUR"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = ["amd64", "arm64"]
 multi_instance = false
